@@ -1,8 +1,8 @@
 :root {
   --main-font-family: "Poppins", sans-serif;
   --secondary-font-family: "Yeseva One", cursive;
-  --heading-color: #50b9bf;
-  --details-color: #cd451c;
+  --primary-color: #50b9bf;
+  --secondary-color: #cd451c;
   --background-color: #eeeeee;
 }
 
@@ -24,21 +24,21 @@ h1 {
   line-height: 128px;
 }
 h2 {
-  color: var(--heading-color);
+  color: var(--primary-color);
   font-weight: 700;
   font-size: 42px;
   line-height: 54px;
 }
 
 h3 {
-  color: var(--heading-color);
+  color: var(--primary-color);
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
 }
 
 .btn-branding {
-  background-color: var(--details-color);
+  background-color: var(--secondary-color);
   opacity: 0.8;
   color: #fff;
   border-color: rgba(0, 0, 0, 0.3);
@@ -51,7 +51,7 @@ h3 {
 }
 .btn-branding:hover {
   background-color: white;
-  color: var(--details-color);
+  color: var(--secondary-color);
   border-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -60,6 +60,27 @@ img.pic-of-me {
   border-radius: 50%;
 }
 
-p {
+.email-link {
   color: #303841;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 150ms ease-in-out;
+}
+
+.email-link:hover {
+  color: var(--secondary-color);
+}
+
+.fa-brands {
+  font-size: 24px;
+  padding: 10px;
+  transition: all 150ms ease-in-out;
+  background-color: var(--background-color);
+  border-radius: 30px;
+  color: var(--primary-color);
+}
+
+.fa-brands:hover {
+  background-color: var(--secondary-color);
+  color: var(--background-color);
 }
