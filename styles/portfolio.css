@@ -60,6 +60,11 @@ img.pic-of-me {
   border-radius: 50%;
 }
 
+.hard-skills-icons img {
+  object-fit: cover;
+  background-color: white;
+}
+
 .email-link {
   color: #303841;
   text-decoration: none;
