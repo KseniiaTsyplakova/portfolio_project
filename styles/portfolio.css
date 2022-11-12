@@ -18,12 +18,6 @@ body {
   padding: 130px 20px;
 }
 
-@media (max-width: 1200px) {
-  .wrapper {
-    padding: 130px 10px;
-  }
-}
-
 h1 {
   color: #e4785d;
   font-family: var(--secondary-font-family);
@@ -54,6 +48,10 @@ h1 {
   }
   .intro-info {
     text-align: center;
+  }
+  .hard-skills-icons {
+    display: flex;
+    justify-content: space-evenly;
   }
 }
 
