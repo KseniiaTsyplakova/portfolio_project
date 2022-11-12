@@ -5,6 +5,7 @@
   --secondary-color: #cd451c;
   --background-color: #eeeeee;
   --text-color: #303841;
+  --text-center: center;
 }
 
 body {
@@ -14,7 +15,7 @@ body {
 .hero {
   text-align: center;
   background-color: var(--background-color);
-  padding: 160px 20px;
+  padding: 130px 20px;
 }
 
 h1 {
@@ -27,7 +28,7 @@ h1 {
 h2 {
   color: var(--primary-color);
   font-weight: 700;
-  font-size: 46px;
+  font-size: 48px;
   line-height: 54px;
 }
 
@@ -72,6 +73,7 @@ h3.about {
 }
 
 p {
+  font-size: 16px;
   color: var(--text-color);
 }
 
@@ -103,4 +105,40 @@ p {
 .fa-brands:hover {
   background-color: var(--secondary-color);
   color: var(--background-color);
+}
+
+@media (max-width: 576px) {
+  img.pic-of-me {
+    display: none;
+  }
+
+  h1 {
+    font-size: 78px;
+    line-height: 1;
+    text-align: var(--text-center);
+  }
+
+  h2 {
+    font-size: 38px;
+    text-align: var(--text-center);
+  }
+
+  h3 {
+    font-size: 20px;
+    text-align: var(--text-center);
+  }
+
+  h3.about {
+    font-size: 24px;
+  }
+
+  p,
+  .email-link {
+    font-size: 14px;
+  }
+  .btn {
+    display: flex;
+    margin: 0 auto;
+    max-width: 130px;
+  }
 }
