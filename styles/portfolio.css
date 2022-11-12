@@ -30,38 +30,6 @@ h1 {
   text-align: left;
 }
 
-@media (max-width: 1200px) {
-  h1 {
-    font-size: 84px;
-    line-height: 82px;
-  }
-}
-
-@media (max-width: 992px) {
-  h1 {
-    font-size: 80px;
-    line-height: 78px;
-  }
-  .my-photo {
-    display: block;
-    margin: 0 auto;
-  }
-  .intro-info {
-    text-align: center;
-  }
-  .hard-skills-icons {
-    display: flex;
-    justify-content: space-evenly;
-  }
-}
-
-@media (max-width: 576px) {
-  h1 {
-    font-size: 78px;
-    line-height: 76px;
-  }
-}
-
 h2 {
   color: var(--primary-color);
   font-weight: 700;
@@ -102,6 +70,7 @@ img.pic-of-me {
 .about-me {
   max-width: 600px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 h3.about {
@@ -144,6 +113,31 @@ p {
   color: var(--background-color);
 }
 
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 84px;
+    line-height: 82px;
+  }
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 80px;
+    line-height: 78px;
+  }
+  .my-photo {
+    display: block;
+    margin: 0 auto;
+  }
+  .intro-info {
+    text-align: center;
+  }
+  .hard-skills-icons {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
 @media (max-width: 576px) {
   img.pic-of-me {
     display: none;
@@ -177,5 +171,11 @@ p {
     display: flex;
     margin: 0 auto;
     max-width: 130px;
+  }
+}
+
+@media (max-width: 496px) {
+  h1 {
+    font-size: 48px;
   }
 }
