@@ -29,27 +29,38 @@ h1 {
   font-family: var(--secondary-font-family);
   font-weight: 400;
   font-size: 96px;
-  line-height: 100px;
+  line-height: 94px;
+}
+
+.intro-info {
+  text-align: left;
 }
 
 @media (max-width: 1200px) {
   h1 {
-    font-size: 82px;
-    line-height: 86px;
+    font-size: 84px;
+    line-height: 82px;
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 992px) {
   h1 {
-    font-size: 78px;
-    line-height: 80px;
+    font-size: 80px;
+    line-height: 78px;
+  }
+  .my-photo {
+    display: block;
+    margin: 0 auto;
+  }
+  .intro-info {
+    text-align: center;
   }
 }
 
 @media (max-width: 576px) {
   h1 {
     font-size: 78px;
-    line-height: 70px;
+    line-height: 76px;
   }
 }
 
