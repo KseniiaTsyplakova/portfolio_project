@@ -198,6 +198,7 @@ nav {
 nav h2 {
   font-family: var(--secondary-font-family);
   color: var(--details-color);
+  transition: all 150ms ease-in-out;
 }
 
 nav h2:hover {
@@ -207,7 +208,7 @@ nav h2:hover {
 nav a {
   text-decoration: none;
   color: var(--primary-color);
-  transition: all 100ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 
 nav a:hover,
