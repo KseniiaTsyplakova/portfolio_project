@@ -19,6 +19,7 @@ body {
   padding: 100px 20px;
 }
 body .wrapper-contact {
+  height: 100vh;
   text-align: center;
   background-color: var(--background-color);
   padding: 130px 20px 219px;
